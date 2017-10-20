@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <VideoView
+        android:layout_width="1600px"
+        android:layout_height="2560px"
+        android:id="@+id/video_b_1"/>
+
+    <ImageView
+        android:layout_width="800px"
+        android:layout_height="170px"
+        android:layout_marginBottom="143px"
+        android:layout_marginLeft="400px"
+        android:src="@drawable/understand"
+        android:onClick="understand_b_1"
+        android:layout_gravity="bottom"
+        />
+
+</FrameLayout>

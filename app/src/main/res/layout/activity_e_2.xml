@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/m_set_bg"/>
+
+    <ImageView
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_marginTop="45px"
+        android:layout_marginLeft="45px"
+        android:src="@drawable/m_back"
+        android:onClick="btn_back"/>
+
+    <!--여기 아래 두개의 iv,tv는
+    앞에 입력한 값이 받아와지면 되는 부분입니동!-->
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:layout_marginLeft="175px"
+        android:layout_marginTop="100px"/>
+    <TextView
+        android:layout_width="125px"
+        android:layout_height="87px"
+        android:layout_marginTop="206px"
+        android:layout_marginLeft="736px"/>
+
+    <!--아래 액션바 fragment로 할라다가
+    귀찮아서 그냥 클릭메뉴로 갔어용!-->
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="220px"
+        android:layout_marginTop="2425px"
+        android:src="@drawable/icon_data_off"
+        android:onClick="btn_data"
+        />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="2425px"
+        android:src="@drawable/icon_i_on"
+        android:onClick="btn_info"
+        />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="1294px"
+        android:layout_marginTop="2425px"
+        android:src="@drawable/icon_set_off"
+        android:onClick="btn_set"
+        />
+
+    <ImageView
+        android:layout_width="1600px"
+        android:layout_height="1800px"
+        android:layout_marginTop="590px"
+        android:src="@drawable/m_i_con"/>
+
+</RelativeLayout>

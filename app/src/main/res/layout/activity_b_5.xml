@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <VideoView
+        android:layout_width="1600px"
+        android:layout_height="2560px"
+        android:id="@+id/video_b_5"/>
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:layout_marginTop="60px"
+        android:layout_marginLeft="1240px"
+        android:src="@drawable/skip_btn"
+        android:onClick="skip_b_5"/>
+
+</FrameLayout>

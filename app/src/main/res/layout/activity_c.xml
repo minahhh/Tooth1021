@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stage_bg"/>
+
+    <!--tooth-->
+    <ImageView
+        android:layout_width="160px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:src="@drawable/t_b_1"/>
+    <ImageView
+        android:layout_width="160px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:layout_marginLeft="160px"
+        android:src="@drawable/t_b_2"/>
+    <ImageView
+        android:layout_width="160px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:layout_marginLeft="320px"
+        android:src="@drawable/t_b_3"/>
+    <ImageView
+        android:layout_width="160px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:layout_marginLeft="480px"
+        android:src="@drawable/t_b_4"/>
+    <ImageView
+        android:layout_width="160px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:layout_marginLeft="640px"
+        android:src="@drawable/t_b_5"/>
+    <ImageView
+        android:layout_width="160px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:layout_marginLeft="800px"
+        android:src="@drawable/t_b_6"/>
+    <ImageView
+        android:layout_width="160px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:layout_marginLeft="960px"
+        android:src="@drawable/t_b_7"/>
+    <ImageView
+        android:layout_width="480px"
+        android:layout_height="236px"
+        android:layout_marginTop="269px"
+        android:layout_marginLeft="1120px"
+        android:src="@drawable/t_b_8_10"/>
+    <ImageView
+        android:layout_width="1460px"
+        android:layout_height="236px"
+        android:layout_marginBottom="269px"
+        android:src="@drawable/t_b_11_20"
+        android:layout_gravity="bottom"/>
+    <ImageView
+        android:layout_width="146px"
+        android:layout_height="236px"
+        android:layout_marginBottom="269px"
+        android:layout_marginLeft="1460px"
+        android:src="@drawable/t_b_21"
+        android:layout_gravity="bottom"
+        android:onClick="btn_21"/>
+    
+    <!--Botton-->
+    <ImageView
+        android:layout_width="550px"
+        android:layout_height="550px"
+        android:layout_marginTop="839px"
+        android:layout_marginLeft="525px"
+        android:src="@drawable/stage_btn_1"
+        android:onClick="btn_stage"
+        />
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginTop="1435px"
+        android:layout_marginLeft="525px"
+        android:src="@drawable/stage_btn_2"
+        android:onClick="btn_parent"
+        />
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginTop="1435px"
+        android:layout_marginLeft="875px"
+        android:src="@drawable/stage_btn_3"
+        android:onClick="btn_medal"
+        />
+
+
+
+
+
+</FrameLayout>

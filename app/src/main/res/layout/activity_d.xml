@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="game.juan.app.d">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/md_bg"/>
+
+    <ImageView
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_marginLeft="45px"
+        android:layout_marginTop="45px"
+        android:onClick="btn_back"
+        android:src="@drawable/md_btn"/>
+
+    <!-- 1번부터 7번까지는 스테이지 끝나면 이미지 바뀌어요!
+    파일명 'md_w_번호'에서 'md_f_번호'로 변경됩니다!
+    일단 'md_w_번호'로 레이아웃 코딩 해놓을게요! 감사합니당 -->
+    
+    <ImageView
+        android:layout_width="440px"
+        android:layout_height="240px"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="300px"
+        android:src="@drawable/md_w_1"/>
+    <ImageView
+        android:layout_width="440px"
+        android:layout_height="240px"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="620px"
+        android:src="@drawable/md_w_2"/>
+    <ImageView
+        android:layout_width="440px"
+        android:layout_height="240px"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="940px"
+        android:src="@drawable/md_w_3" />
+    <ImageView
+        android:layout_width="440px"
+        android:layout_height="240px"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="1260px"
+        android:src="@drawable/md_w_4"/>
+    <ImageView
+        android:layout_width="440px"
+        android:layout_height="240px"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="1580px"
+        android:src="@drawable/md_w_5"/>
+    <ImageView
+        android:layout_width="440px"
+        android:layout_height="240px"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="1900px"
+        android:src="@drawable/md_w_6"/>
+    <ImageView
+        android:layout_width="440px"
+        android:layout_height="240px"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="2220px"
+        android:src="@drawable/md_w_7"/>
+
+</RelativeLayout>

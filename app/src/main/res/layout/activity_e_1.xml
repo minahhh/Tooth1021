@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="game.juan.app.e_1">
+
+    <ImageView
+        android:layout_width="1600px"
+        android:layout_height="2560px"
+        android:src="@drawable/m_data_bg"/>
+
+    <ImageView
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_marginTop="45px"
+        android:layout_marginLeft="45px"
+        android:src="@drawable/m_back"
+        android:onClick="btn_back"/>
+
+    <!--여기 아래 두개의 iv,tv는
+    앞에 입력한 값이 받아와지면 되는 부분입니동!-->
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:layout_marginLeft="175px"
+        android:layout_marginTop="100px"/>
+    <TextView
+        android:layout_width="125px"
+        android:layout_height="87px"
+        android:layout_marginTop="206px"
+        android:layout_marginLeft="736px"/>
+
+    <!--여기 아래 이미지 버튼 7과 14클릭하면 팝업창 뜨면 됩니당! (와이어프레임 참고)
+    팝업 이미지는 7클릭시 'm_data_pop_7' 14클릭시 'm_data_pop_14' 입니동!-->
+    <ImageView
+        android:layout_width="170px"
+        android:layout_height="170px"
+        android:layout_marginLeft="1327px"
+        android:layout_marginTop="901px"
+        android:src="@drawable/m_data_7"/>
+
+    <ImageView
+        android:layout_width="170px"
+        android:layout_height="170px"
+        android:layout_marginLeft="103px"
+        android:layout_marginTop="1484px"
+        android:src="@drawable/m_data_14"/>
+
+    <!--아래 액션바 fragment로 할라다가
+    귀찮아서 그냥 클릭메뉴로 갔어용!-->
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="220px"
+        android:layout_marginTop="2425px"
+        android:src="@drawable/icon_data_on"
+        android:onClick="btn_data"        />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="2425px"
+        android:src="@drawable/icon_i_off"
+        android:onClick="btn_info"        />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="1294px"
+        android:layout_marginTop="2425px"
+        android:src="@drawable/icon_set_off"
+        android:onClick="btn_set" />
+
+
+</RelativeLayout>

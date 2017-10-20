@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--여기 이미지가 activity_b_5에서 받아온온 이미예요-->
+    <ImageView
+        android:layout_width="900px"
+        android:layout_height="900px"
+        android:layout_marginTop="476px"
+        android:layout_marginLeft="350px"
+        android:src="@drawable/pt_no"
+        />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        />
+
+</RelativeLayout>
